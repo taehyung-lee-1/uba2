@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
+body{
+  height: 100%;
+  background: linear-gradient(90deg, #ffffff 42%, #f4f6fa 0);
+}
 
 
 div#login{
@@ -13,10 +17,17 @@ div#login{
   font-weight: bold;
 }
 
+.workingtime{
+  margin: 890px;
+  
+}
+
 div#email{
   position: relative;
   left: 120px;
   top: 115px;
+  width: 39px;
+  height: 20px;
   font-size: 14px;
   font-weight: 500;
   font-family: "Noto Sans KR";
@@ -41,6 +52,8 @@ div#password{
   position: relative;
   left: 120px;
   top: 165px;
+  width: 52px;
+  height: 20px;
   font-size: 14px;
   font-weight: 500;
   font-family: "Noto Sans KR";
@@ -88,4 +101,54 @@ div#passwordA{
   font-size: 14px;
   font-weight: 500;
   text-align: center;
+}
+
+div#facebook{
+  position: relative;
+  left: 120px;
+  top: 275px;
+  width: 360px;
+  height: 50px;
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid #d4d9e1;
+}
+
+div#facebook span{
+  position:absolute;top:50%;left:50%;transform: translate(-50%, -50%)
+}
+
+div#google{
+  position: relative;
+  left: 120px;
+  top: 310px;
+  width: 360px;
+  height: 50px;
+  font-family: "Noto Sans KR";
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid #d4d9e1;
+}
+
+div#google span{
+  position:absolute;top:50%;left:50%;transform: translate(-50%, -50%)
+}
+
+div#noaccount{
+  position: relative;
+  left: 120px;
+  top: 390px;
+  font-family: :"Noto Sans KR";
+  font-size: 14px;
+  color: #7c8390;
+}
+
+div#noaccount span{
+  position: relative;
+  font-size: 14px;
+  font-family: "Noto Sans KR";
+  color: #699eff;
 }
